@@ -1,0 +1,11 @@
+{
+  "name": "tiramisu",
+  "version": "1.0.0",
+  "author": "and-rs",
+  "scripts": {
+    "format": "pnpm biome format --write .",
+    "docker:up": "docker compose --env-file .env up -d --build --remove-orphans",
+    "docker:stop": "docker compose stop",
+    "docker:down": "docker compose down -v"
+  }
+}
