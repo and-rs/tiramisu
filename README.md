@@ -1,7 +1,7 @@
 ### Ecommerce platform
 
 1. Stack
-   - Backend: Strapi
+   - Backend: Medusa.js
      - With REST
    - Frontend: Solid Start
      - Tailwind
